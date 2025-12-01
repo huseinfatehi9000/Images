@@ -1,5 +1,6 @@
-/* styles.css - Beginner Level CSS */
+/* styles.css - Unified CSS for all portfolio pages */
 
+/* Base Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: black;
@@ -8,6 +9,7 @@ body {
     padding: 0;
 }
 
+/* Header and Navigation */
 header {
     text-align: center;
     padding-top: 30px;
@@ -40,6 +42,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* Main Content Area */
 main {
     width: 900px;
     margin-left: auto;
@@ -48,6 +51,7 @@ main {
     padding: 20px;
 }
 
+/* Home Page - Profile Section */
 .profile-container {
     background-color: #1a1a1a;
     border: 2px solid #333;
@@ -77,4 +81,111 @@ main {
     color: white;
     font-size: 18px;
     line-height: 1.6;
+}
+
+/* About Page Styles */
+.about-content {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-content h1 {
+    color: #C8102E;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.about-content p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+/* Courses Page Styles */
+.courses-content {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.courses-content h1 {
+    color: #C8102E;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border: 2px solid #C8102E;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #C8102E;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid #333;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #1a1a1a;
+}
+
+.total-credits {
+    color: #C8102E;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Interests Page Styles */
+.interests-content {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.interests-content h1 {
+    color: #C8102E;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.interests-content h2 {
+    color: #C8102E;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.interests-content p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
 }
