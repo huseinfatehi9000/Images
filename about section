@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Husein Fatehi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="csun-logo.png" alt="CSUN Logo" class="csun-logo">
+        </div>
+        
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="education.html">Education</a>
+            <a href="work-experience.html">Work Experience</a>
+            <a href="interests.html">Interests & Skills</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="about-content">
+            <h1>Who I Am</h1>
+            
+            <p>I'm an Information Systems student at California State University, Northridge with a concentration in Software Technology and an associate's degree in Biology. I'm building skills across software, automation, and modern AI tools, and I enjoy turning rough ideas into practical systems that help real people move faster and work more efficiently. I work with tools like Make, GitHub, and current AI assistants to prototype automation workflows, streamline processes, and develop small web projects.</p>
+            
+            <p>Right now, I'm running structured experiments around habit formation, distraction-proofing, and effective learning, applying research-backed approaches to improve focus and build stronger study and productivity routines. My interests fall at the intersection of software, AI, and operational execution, and I'm exploring paths in areas like SaaS customer success, tech sales, workflow design, and no-code/AI-driven automation.</p>
+            
+            <p>I'm looking to connect with people and teams who value speed, clarity, and measurable outcomes—environments where I can contribute both in technical details and in the day-to-day work required to keep projects moving.</p>
+        </div>
+    </main>
+</body>
+</html>
